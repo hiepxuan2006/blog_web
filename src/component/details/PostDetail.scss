@@ -1,0 +1,65 @@
+.detail {
+    margin-top: 100px;
+
+    .detail__content {
+        position: relative;
+        width   : 100%;
+
+        .detail__session {
+            height     : 580px;
+            width      : 100%;
+            position   : relative;
+            // overflow: hidden;
+
+            img {
+                width        : 100%;
+                height       : 100%;
+                object-fit   : cover;
+                border-radius: 20px;
+            }
+
+
+        }
+
+        .detail__header {
+            bottom: 30px;
+
+            color: #777;
+
+            .detail__category {
+                font-size  : 20px;
+                font-weight: 900;
+
+            }
+
+            h3 {
+                margin   : 10px 0;
+                font-size: 40px;
+            }
+
+            span {
+                font-size: 20px;
+            }
+        }
+
+        .detail__content {
+            margin-top: 50px;
+
+            .detail__desc {
+                p {
+                    font-size  : 16px;
+                    color      : #777;
+                    line-height: 1.7;
+                    text-align : justify;
+                }
+            }
+        }
+
+        p {
+            font-size  : 16px;
+            color      : #777;
+            line-height: 1.7;
+            text-align : justify;
+        }
+    }
+}

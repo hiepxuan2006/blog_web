@@ -1,0 +1,59 @@
+.list {
+    width: 100%;
+
+    h1 {
+        margin-bottom: 20px;
+        font-size    : 30px;
+    }
+
+    .list__table {
+        border-collapse: collapse;
+        width          : 100%;
+
+        tr {
+            th {
+                font-size       : 18px;
+                border          : 1px solid #000;
+                padding         : 8px;
+                padding-top     : 12px;
+                padding-bottom  : 12px;
+                text-align      : left;
+                background-color: #6de6b9;
+                color           : #000;
+            }
+
+            td {
+                border   : 1px solid #888;
+                padding  : 8px;
+                font-size: 16px;
+                color    : #777;
+
+                button {
+                    width        : 100%;
+                    border       : none;
+                    padding      : 6px;
+                    border-radius: 10px;
+
+
+                    &.edit {
+                        background-color: #80ebc3;
+                        filter          : brightness(0.8);
+
+
+                    }
+
+                    &.delete {
+                        background-color: #f7ad25;
+                        filter          : brightness(0.8);
+
+                    }
+
+                    &:hover {
+                        filter: brightness(1);
+                    }
+
+                }
+            }
+        }
+    }
+}

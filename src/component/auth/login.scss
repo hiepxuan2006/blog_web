@@ -1,0 +1,233 @@
+.auth {
+    height           : 100%;
+    min-height       : 100vh;
+    background-image : url(https://pkmacbook.com/wp-content/uploads/2021/06/anh-background-phong-canh-sieu-dep_103237666.png);
+    background-repeat: no-repeat;
+    background-size  : cover;
+
+
+    .auth__wrap {
+        padding-top: 40px;
+        width      : 400px;
+        height     : 400px;
+        margin     : 0 auto;
+
+        .login {
+            width           : 100%;
+            padding         : 40px 30px 30px 30px;
+            margin          : 0 auto;
+            background-color: transparent;
+            border-radius   : 15px;
+            box-shadow      : 0 1px 1px 1px #aaa;
+
+            .login__heading {
+                font-weight   : 600;
+                font-size     : 40px;
+                letter-spacing: 1.3px;
+                color         : #000;
+                text-align    : center;
+                margin-bottom : 20px;
+            }
+
+            .login__form {
+
+                .login__input {
+                    display      : flex;
+                    align-items  : center;
+                    padding-left : 10px;
+                    margin-bottom: 20px;
+                    border-radius: 20px;
+                    color        : #000;
+                    border       : 1px solid #000;
+
+                    i {
+                        color: #000;
+                    }
+
+                    span {
+                        color    : #000;
+                        font-size: 18px;
+                    }
+
+                    input {
+                        width           : 90%;
+                        font-weight     : 400;
+                        font-size       : 18px;
+                        display         : block;
+                        border          : none;
+                        outline         : none;
+                        background-color: transparent;
+                        padding         : 10px 15px 10px 10px
+                    }
+
+                    .hidepassword {
+                        cursor       : pointer;
+                        padding-right: 16px;
+
+                    }
+                }
+            }
+
+            .login__btn {
+                width          : 100%;
+                display        : flex;
+                align-items    : center;
+                justify-content: center;
+                height         : 40px;
+                font-size      : 20px;
+                background     : linear-gradient(143deg, rgba(34, 193, 195, 1) 20%, rgba(253, 187, 45, 1));
+                color          : #fff;
+                border-radius  : 25px;
+                letter-spacing : 1.3px;
+                margin-top     : 8px;
+                filter         : brightness(0.9);
+
+                &:hover {
+                    filter: brightness(1);
+                    color : #000;
+                }
+
+                span {
+                    user-select: none;
+                }
+            }
+
+            .navigate {
+                display       : flex;
+                flex-direction: column;
+                align-items   : center;
+                margin-top    : 16px;
+                gap           : 12px;
+
+                .navigate__desc {
+                    font-size: 18px;
+                }
+
+                .navigate__link {
+                    width           : 100px;
+                    padding         : 10px;
+                    border          : 1px solid #000;
+                    background-color: transparent;
+                    display         : block;
+                    text-align      : center;
+                    border-radius   : 20px;
+                    font-size       : 18px;
+                    color           : #000;
+
+                    &:hover {
+                        background: linear-gradient(143deg, rgba(34, 193, 195, 1) 20%, rgba(253, 187, 45, 1));
+                    }
+                }
+            }
+        }
+
+        .register {
+            width           : 100%;
+            padding         : 10px 20px 30px 20px;
+            margin          : 0 auto;
+            background-color: transparent;
+            border-radius   : 15px;
+            box-shadow      : 0 1px 1px 1px #aaa;
+
+            .register__heading {
+                font-weight   : 600;
+                font-size     : 40px;
+                letter-spacing: 1.3px;
+                color         : #000;
+                text-align    : center;
+                margin-bottom : 20px;
+            }
+
+            .register__form {
+
+                .register__input {
+                    display      : flex;
+                    align-items  : center;
+                    padding-left : 10px;
+                    margin-bottom: 20px;
+                    border-radius: 20px;
+                    color        : #000;
+                    border       : 1px solid #000;
+
+                    i {
+                        color: #000;
+                    }
+
+                    span {
+                        color    : #000;
+                        font-size: 18px;
+                    }
+
+                    input {
+                        width      : 100%;
+                        font-weight: 400;
+                        font-size  : 18px;
+                        display    : block;
+                        border     : none;
+                        outline    : none;
+                        background : none;
+                        padding    : 10px 15px 10px 10px
+                    }
+
+                    .hidepassword {
+                        cursor       : pointer;
+                        padding-right: 16px;
+
+                    }
+                }
+            }
+
+            .register__btn {
+                width          : 100%;
+                display        : flex;
+                align-items    : center;
+                justify-content: center;
+                height         : 40px;
+                font-size      : 20px;
+                background     : linear-gradient(143deg, rgba(34, 193, 195, 1) 20%, rgba(253, 187, 45, 1));
+                color          : #fff;
+                border-radius  : 25px;
+                letter-spacing : 1.3px;
+                margin-top     : 8px;
+                filter         : brightness(0.9);
+
+                &:hover {
+                    filter: brightness(1);
+                    color : #000;
+                }
+
+                span {
+                    user-select: none;
+                }
+            }
+
+            .navigate {
+                display       : flex;
+                flex-direction: column;
+                align-items   : center;
+                margin-top    : 16px;
+                gap           : 12px;
+
+                .navigate__desc {
+                    font-size: 18px;
+                }
+
+                .navigate__link {
+                    width           : 100px;
+                    padding         : 10px;
+                    border          : 1px solid #000;
+                    background-color: transparent;
+                    display         : block;
+                    text-align      : center;
+                    border-radius   : 20px;
+                    font-size       : 18px;
+                    color           : #000;
+
+                    &:hover {
+                        background: linear-gradient(143deg, rgba(34, 193, 195, 1) 20%, rgba(253, 187, 45, 1));
+                    }
+                }
+            }
+        }
+    }
+}

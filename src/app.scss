@@ -1,0 +1,31 @@
+html {
+    scroll-behavior: smooth;
+    font-size      : 62.5%;
+    font-family    : Arial, Helvetica, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin    : 0;
+    padding   : 0;
+}
+
+ul,
+p {
+    margin : 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color          : currentColor;
+}
+
+img {
+    max-width: 100%;
+    display  : block;
+}
+
+ul {
+    list-style: none;
+}

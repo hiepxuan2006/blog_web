@@ -1,0 +1,71 @@
+.camnanglist {
+    margin-bottom: 50px;
+
+    .camnang__heading {
+        font-size: 18px;
+
+        h1 {
+            color        : red;
+            padding      : 12px;
+            border       : 2px solid red;
+            font-weight  : 700;
+            cursor       : pointer;
+            border-radius: 20px;
+        }
+    }
+
+    .camnang {
+        display      : flex;
+        gap          : 10px;
+        align-items  : center;
+        margin-top   : 20px;
+        border-radius: 20px;
+        overflow     : hidden;
+
+        &.camnang__big {
+            .camnang__img {
+                height: 100%;
+                width : 100%;
+
+            }
+
+            .camnang__info {
+                display: none;
+            }
+        }
+
+        .camnang__img {
+            height       : 150px;
+            width        : 270px;
+            border-radius: 20px;
+            overflow     : hidden;
+            display      : block;
+
+            img {
+                height: 100%;
+                width : 100%;
+            }
+
+        }
+
+        .camnang__info {
+            flex: 1;
+
+            h3 {
+                font-size: 20px;
+            }
+
+            p {
+                font-style        : italic;
+                color             : #ccc;
+                line-height       : 18px;
+                font-size         : 14px;
+                height            : 54px;
+                display           : -webkit-box;
+                -webkit-box-orient: vertical;
+                -webkit-line-clamp: 3;
+                overflow          : hidden;
+            }
+        }
+    }
+}
